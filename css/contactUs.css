@@ -1,0 +1,222 @@
+
+#main-panel
+{
+    margin: 0;
+    padding: 20px;
+    border: 0px solid #ccc;
+    height: 510px;
+}
+
+legend
+{
+    /* color: #BF1E23; */
+    color: #125102;
+    font-weight: bold;
+
+    text-shadow: 0px 1px 1px #fff;
+
+    border:  1px solid #FFf080;
+    padding: 3px 15px;    
+
+	border-radius           : 3px 3px 3px 3px;
+    -moz-border-radius      : 3px; /* Firefox */
+    -webkit-border-radius   : 3px; /* Safari, Chrome */
+
+    background-image: -moz-linear-gradient(180deg, #CD0000 0%, #FFE000 100%);
+    background-image: -o-linear-gradient(180deg, #CD0000 0%, #FFE000 100%);
+    background-image: -webkit-linear-gradient(180deg, #CD0000 0%, #FFE000 100%);
+    background-image: linear-gradient(180deg, #FFE000 0%, #DC4300 100%);          
+    
+}
+
+#fldsetAccountUpdate legend
+{
+    color: #CD0000;
+}
+
+
+#fldsetOurContact
+{
+    position: static;
+    height: auto;
+    width: 90%;
+    padding:  0.2em 0.5em;
+    border:  1px solid #FFf080;
+    margin: 10px 20px 15px 10px; 
+    text-align: left;
+    
+    background-color: rgb(0, 0, 0);                 /* Fallback for web browsers that don't support RGBa */
+    background-color: rgba(0, 0, 0, 0.2);           /* RGBa with 0.6 opacity */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);              /* For IE 5.5 - 7*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";       /* For IE 8*/   
+}
+
+
+#fldsetContactUs
+{
+    clear: left;
+    position: static; 
+    height: auto;
+    width: 90%;
+    padding:  0.2em 0.5em;
+    border:  1px solid #FFf080;
+    margin: 10px 20px 15px 10px; 
+    text-align: left;
+    
+  
+    background-color: rgb(0, 0, 0);                 /* Fallback for web browsers that don't support RGBa */
+    background-color: rgba(0, 0, 0, 0.6);           /* RGBa with 0.6 opacity */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);              /* For IE 5.5 - 7*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";       /* For IE 8*/
+}
+
+#cntOurContact,
+#cntContactUs
+{
+    padding: 15px;
+}
+
+label
+{
+    font-size: 14px;
+    line-height: 28px;
+    color: #E7DA08;  
+    width: 120px;
+    display: inline-block;
+    text-align: right;
+    vertical-align:top; 
+}
+
+
+textarea,
+input
+{
+    width: 300px;
+    height: 22px;
+    padding-left: 2px;
+}
+
+textarea
+{
+    height: 90px;
+    resize:none;
+}
+
+#btnContactUsSubmit
+{ 
+    /*background-image: url('../images/btn_update.gif'); */
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 29px;
+    cursor: pointer;
+    position: relative;
+    left: 125px; 
+    top: 10px;
+    
+    /* background-image: url('../images/btn_register.gif'); */
+ 
+    /* from JS Fiddle */    
+    color: #125102;
+    padding: 4px 8px 5px;
+    border: 0px solid #922529; 
+    text-decoration: none;
+    text-shadow: 
+        0 1px 0 rgba(0,0,0,0.3),
+        -1px -1px 1px #fff, 
+        1px 1px 1px #000;
+    
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    background-color: #ED8F00;  /* #008fcf; */
+    box-shadow:
+        0 1px 0 rgba(0,0,0,.08),
+        inset 0 1px 2px rgba(255,255,255,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+     
+    background-image: -moz-linear-gradient(0deg, #CD0000 0%, #FFE000 100%);
+    background-image: -o-linear-gradient(0deg, #CD0000 0%, #FFE000 100%);
+    background-image: -webkit-linear-gradient(0deg, #CD0000 0%, #FFE000 100%);
+    background-image: linear-gradient(0deg, #CD0000 0%, #FFE000 100%);          
+    
+}
+
+#btnContactUsSubmit:hover
+{
+    background: #fceabb; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fceabb 0%, #fccd4d 50%, #f8b500 51%, #fbdf93 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fceabb), color-stop(50%,#fccd4d), color-stop(51%,#f8b500), color-stop(100%,#fbdf93)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #fceabb 0%,#fccd4d 50%,#f8b500 51%,#fbdf93 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fceabb', endColorstr='#fbdf93',GradientType=0 ); /* IE6-9 */
+}
+
+#btnPasswordUpdate:hover
+{
+    background: #feccb1; /* Old browsers */
+    background: -moz-linear-gradient(top,  #feccb1 0%, #f17432 50%, #ea5507 51%, #fb955e 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#feccb1), color-stop(50%,#f17432), color-stop(51%,#ea5507), color-stop(100%,#fb955e)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #feccb1 0%,#f17432 50%,#ea5507 51%,#fb955e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feccb1', endColorstr='#fb955e',GradientType=0 ); /* IE6-9 */
+/*
+    color: #fff;
+    box-shadow:
+        0 1px 0 rgba(0,0,0,.08),
+        inset 0 1px 2px rgba(0,0,0,.67),
+        inset 0 -1px 0 rgba(0,0,0,.14);
+*/
+}
+
+.disabled
+{
+    color: #000;
+    background-color: #ddd;
+    position: relative;
+    left: 1px;
+}
+
+#ajaxContactUsMessageResponse
+{
+
+    margin-top: 14px;
+    margin-left: 125px;
+    font-size: 14px;
+    color: #fff;
+}
+
+
+
+/*CSS3 extras*/
+/* 
+a.tooltip span 
+{ 
+    border-radius:4px; 
+    -moz-border-radius: 4px; 
+    -webkit-border-radius: 4px; 
+    -moz-box-shadow: 5px 5px 8px #CCC; 
+    -webkit-box-shadow: 5px 5px 8px #CCC; 
+    box-shadow: 5px 5px 8px #CCC;   
+}
+*/
+
+/* media width < 490px - adjust diary title */
+@media screen and (max-width: 490px)
+{
+    label               { text-align: left; }
+    #btnContactUsSubmit { left: 0; }
+    #ajaxContactUsMessageResponse
+    {
+        margin-left: 0px;
+    }
+
+} /* @media screen and (max-width: 490px) */
+

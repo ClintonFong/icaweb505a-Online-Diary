@@ -1,0 +1,250 @@
+/* 
+	Main Containers
+*/	
+
+#main-panel
+{
+    margin: 0;
+    padding: 20px;
+    border: 2px solid #aaa;
+    height: 400px;
+    background-image: url('../images/background1.jpg');
+    background-repeat: no-repeat;
+}
+
+#cntSigninBox
+{
+    display: block;
+}
+
+#cntRegisterBox
+{
+    display: none; 
+}
+
+#legendSignin
+{
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid #14533B;
+    padding: 5px 10px 5px 10px; 
+    border-radius: 5px;
+
+    text-shadow: 0px 1px 1px #4d4d4d;
+/*    color: #14533B; */
+	color: #fff;
+    background: #555;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #9EC158, #BBD74E);
+    background-image: -moz-linear-gradient(top, #9EC158, #BBD74E);
+    background-image: -ms-linear-gradient(top, #9EC158, #BBD74E);
+    background-image: -o-linear-gradient(top, #9EC158, #BBD74E);
+    background-image: linear-gradient(to bottom, #9EC158, #BBD74E);
+   
+}
+
+#legendRegister
+{
+    text-align: left;
+    font-size: 20px;
+    border: 1px solid #BF1E23;
+    padding: 5px 10px 5px 10px; 
+    border-radius: 5px;
+
+    text-shadow: 0px 1px 1px #4d4d4d;
+/*    color: #BF1E23; */
+	color: #fff;
+    background: #555;
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #DA3E15, #FD6D26);
+    background-image: -moz-linear-gradient(top, #DA3E15, #FD6D26);
+    background-image: -ms-linear-gradient(top, #DA3E15, #FD6D26);
+    background-image: -o-linear-gradient(top, #DA3E15, #FD6D26);
+    background-image: linear-gradient(to bottom, #DA3E15, #FD6D26);
+}
+
+#fldsetSignin
+{
+    clear: right;
+    height: 158px;
+    width: 385px;
+    padding:  0.2em 0.5em;
+    border:  1px solid green;
+    margin: 10px 20px 15px 20px; 
+    float: right;  
+    text-align: right;
+    background-color: #fff;
+}
+
+#fldsetRegister
+{
+    clear: right;
+    height: 265px;
+    width: 385px;
+    padding:  0.2em 0.5em;
+    border:  1px solid #BF1E23;
+    margin: 10px 20px 15px 20px; 
+    float: right;  
+    text-align: right;
+    background-color: #fff;
+}
+
+
+div#cntSigninDetails,
+div#cntRegisterDetails
+{
+    padding-top: 10px;
+}
+
+div#cntRegisterDetails
+{
+    float: left;
+    width: 100%;
+}
+
+
+label
+{
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+input
+{
+    width: 250px;
+    height: 22px;
+}
+
+
+#btnSignin
+{   
+    background: #BBD74E;
+    background-image: -webkit-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: -moz-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: -ms-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: -o-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: linear-gradient(to bottom, #BBD74E, #9EC158);
+
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 29px;
+    border: 0px;
+    cursor: pointer;
+    position: relative;
+    left: -6px;
+    top: 5px;
+}
+
+#btnSignin.btn:hover 
+{
+    /* from http://www.colorzilla.com/gradient-editor/ */
+    background: #9dd53a; /* Old browsers */
+    background: -moz-linear-gradient(top,  #9dd53a 0%, #a1d54f 50%, #80c217 51%, #7cbc0a 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#9dd53a), color-stop(50%,#a1d54f), color-stop(51%,#80c217), color-stop(100%,#7cbc0a)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #9dd53a 0%,#a1d54f 50%,#80c217 51%,#7cbc0a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9dd53a', endColorstr='#7cbc0a',GradientType=0 ); /* IE6-9 */
+}
+
+#btnRegister
+{ 
+    background: #BBD74E;
+    background-image: -webkit-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: -moz-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: -ms-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: -o-linear-gradient(top, #BBD74E, #9EC158);
+    background-image: linear-gradient(to bottom, #FD6D26, #DA3E15);
+
+    background-position:  0px 0px;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 29px;
+    border: 0px;
+    background-color: none;
+    cursor: pointer;
+    position: relative;
+    left: -155px;
+    top: 5px;
+}
+
+#btnRegister.btn:hover
+{
+    background: #f3c5bd; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f3c5bd 0%, #e86c57 50%, #ea2803 51%, #ff6600 75%, #c72200 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f3c5bd), color-stop(50%,#e86c57), color-stop(51%,#ea2803), color-stop(75%,#ff6600), color-stop(100%,#c72200)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #f3c5bd 0%,#e86c57 50%,#ea2803 51%,#ff6600 75%,#c72200 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3c5bd', endColorstr='#c72200',GradientType=0 ); /* IE6-9 */
+}
+
+#aForgotPassword
+{
+/*    width: 75px; */
+    color: #aaa;
+    font-size: 14px;
+    line-height: 16px;
+    display: inline-block;
+    padding-top: 5px;
+    text-align: left;
+}
+
+#lblErrMsgSignin
+{
+    position: relative;
+    left: -125px;
+    top: 5px;
+}
+
+#lblErrMsgRegister
+{
+    color: #ff0000;
+    position: relative;
+    left: -25px;
+    top: 5px;
+}
+
+/* Register/Sign-in hrefs */
+#cntRegisterHref,
+#cntSigninHref
+{
+    clear: right;
+    float: right;
+    margin-right: 30px;
+    
+    position:  relative;
+    top: 15px;
+}
+
+.toggleRegister
+{
+    color: #aaa;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#aRegister.toggleRegister
+{
+    color: #f3c5bd;
+}
+
+#aSignin.toggleRegister
+{
+    color: #9dd53a;
+}
+
+
+/* media width < 1024px */
+@media screen and (max-width: 1024px)
+{
+    .toggleRegister
+    {
+        color: #ccc;
+    }
+
+} /* @media screen and (max-width: 1024px) */
